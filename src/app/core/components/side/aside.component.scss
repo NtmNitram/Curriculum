@@ -1,0 +1,91 @@
+.containerAside {
+    background-color: #151564;
+    padding: 5rem 0;
+    color: rgb(252, 251, 251);
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+.containerAside img {
+    border-radius: 50%;
+    margin: 2rem auto;
+    width: 100%;
+    box-shadow: 0 0 10px #bef739;
+}
+
+.containerAside h2 {
+    border-radius: 40%;
+    border: 1px solid #bef739;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+
+
+.bar {
+    margin-top: 0.3rem;
+    background: #f4f5f3;
+    display: block;
+    height: 1rem;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #bef739;
+  }
+
+  .bar span {
+    height: 2rem;
+    float: left;
+    background: #bef739;
+  }
+
+  $Html5: 80%;
+  $Scss: 50%;
+  $JS: 40%;
+  $Python: 30%;
+  $VsC: 80%;
+  $Github: 55%;
+  $Bootstrap5: 40%;
+  
+
+  .Htlm5 {
+    width: $Html5;
+    animation: Html5 4s;
+  }
+
+  .Scss {
+    width: $Scss;
+    animation: Scss 4s;
+  }
+
+  .JS {
+    width: $JS;
+    animation: JS 4s;
+  }
+
+  .Python {
+    width: $Python;
+    animation: Python 4s;
+  }
+
+  .Github {
+    width: $Github;
+    animation: Github 4s;
+  }
+
+  .Bootstrap5 {
+    width: $Bootstrap5;
+    animation: Bootstrap5 4s;
+  }
+
+  .VsC {
+    width: $VsC;
+    animation: VsC 4s;
+  }
+
+  .Github {
+    width: $Github;
+    animation: Github 4s;
+}
+

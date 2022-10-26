@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { HeaderComponent } from './components/header/header.component';
-import { AsideComponent } from './components/aside/aside.component';
+import { AsideComponent } from './components/side/aside.component';
 import { ContentComponent } from './components/content/content.component';
 
 @NgModule({
