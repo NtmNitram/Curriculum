@@ -7,14 +7,14 @@
 }
 
 .containerAside img {
-    border-radius: 50%;
-    margin: 2rem auto;
+    
+    
     width: 100%;
-    box-shadow: 0 0 10px #bef739;
+    border-radius: 10%;
 }
 
 .containerAside h2 {
-    border-radius: 40%;
+    border-radius: 10%;
     border: 1px solid #bef739;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -40,13 +40,13 @@
     background: #bef739;
   }
 
-  $Html5: 80%;
+  $Html5: 75%;
   $Scss: 50%;
   $JS: 40%;
   $Python: 30%;
-  $VsC: 80%;
-  $Github: 55%;
-  $Bootstrap5: 40%;
+  $VsC: 70%;
+  $Github: 50%;
+  $Angular: 48%;
   
 
   .Htlm5 {
@@ -74,9 +74,9 @@
     animation: Github 4s;
   }
 
-  .Bootstrap5 {
-    width: $Bootstrap5;
-    animation: Bootstrap5 4s;
+  .Angular {
+    width: $Angular;
+    animation: Angular 10s;
   }
 
   .VsC {

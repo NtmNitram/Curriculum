@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-
 import { HeaderComponent } from './components/header/header.component';
 import { AsideComponent } from './components/side/aside.component';
 import { ContentComponent } from './components/content/content.component';
@@ -17,10 +16,12 @@ import { ContentComponent } from './components/content/content.component';
     AsideComponent,
     ContentComponent,
     CommonModule
+  
   ],
     imports: [
-        CommonModule,
-        RouterModule,
+      CommonModule,
+      RouterModule,
+
     ]
 })
 

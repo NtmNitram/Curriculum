@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
 
 
 $fonth1: 3.2rem;
@@ -33,17 +32,16 @@ p {
 
 html {
     font-size: 62.5%;
-    background: #bef739;
+    background: #151564;
   }
 
 .container {
     width: 80%;
-    margin: 2rem auto;
+    
     display: grid;
-    border: 1px solid #bef739(139, 246, 46);
-    background: rgb(255, 255, 255);
+    
     grid-template-columns: minmax(2rem, 3rem) minmax(14px, 30rem) minmax(140px, 1fr);
-    grid-template-rows: minmax(15rem, auto) minmax(10rem, auto) minmax(3rem, 0.5rem) minmax(2rem, 0.5rem);
+    grid-template-rows: minmax(1rem, auto) minmax(5rem, auto) minmax(3rem, 5rem) minmax(2rem, 0.5rem);
 }
 
 .containerHeader{
